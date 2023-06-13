@@ -187,7 +187,7 @@ class ExtraNetworksPage:
 
         args = {
             "background_image": background_image,
-            "style": f"'display: none; {height}{width}'",
+            "style": f"'{height}{width}'",
             "prompt": item.get("prompt", None),
             "tabname": json.dumps(tabname),
             "local_preview": json.dumps(item["local_preview"]),
@@ -200,6 +200,7 @@ class ExtraNetworksPage:
             "search_only": " search_only" if search_only else "",
         }
 
+        # Return the HTML of the Lora card 
         return self.card_page.format(**args)
 
     def find_preview(self, path):

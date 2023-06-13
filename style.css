@@ -708,7 +708,6 @@ footer {
 /* extra networks UI */
 
 .extra-network-cards{
-    height: 725px;
     overflow: scroll;
     resize: vertical;
 }
@@ -844,17 +843,16 @@ footer {
     display: inline-block;
     margin: 0.5em;
     width: 16em;
-    height: 24em;
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
     border-radius: 0.2em;
     position: relative;
-
+    color: white;
+    background: aliceblue;
+    text-align: center;
     background-size: auto 100%;
     background-position: center;
     overflow: hidden;
     cursor: pointer;
-
-    background-image: url('./file=html/card-no-preview.png')
 }
 
 .extra-network-cards .card:hover{
