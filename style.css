@@ -809,12 +809,8 @@ footer {
 /* extra networks UI */
 
 .extra-network-cards{
-<<<<<<< HEAD
-    overflow: scroll;
-=======
     height: calc(100vh - 24rem);
     overflow: clip scroll;
->>>>>>> 5ef669de080814067961f28357256e8fe27544f4
     resize: vertical;
     min-height: 52rem;
 }
@@ -900,22 +896,8 @@ footer {
     font-size: 200%;
     width: 1.5em;
 }
-<<<<<<< HEAD
-.extra-network-thumbs .card .metadata-button {
-    text-shadow: 1px 1px 2px black;
-    padding: 0;
-    font-size: 16pt;
-    width: 1em;
-    top: -0.25em;
-}
-.extra-network-cards .card:hover .metadata-button, .extra-network-thumbs .card:hover .metadata-button{
-    display: inline-block;
-border: 2px solid red;
-}
-.extra-network-cards .card .metadata-button:hover, .extra-network-thumbs .card .metadata-button:hover{
-=======
+
 .extra-network-cards .card .card-button:hover{
->>>>>>> 5ef669de080814067961f28357256e8fe27544f4
     color: red;
 }
 
@@ -929,51 +911,9 @@ border: 2px solid red;
 
 .extra-network-cards .card, .standalone-card-preview.card{
     display: inline-block;
-<<<<<<< HEAD
-}
-
-.extra-network-thumbs .actions .additional a {
-    background-image: url('./file=html/image-update.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 24px;
-    height: 24px;
-    display: none;
-    font-size: 0;
-    text-align: -9999;
-}
-
-.extra-network-thumbs .actions .name {
-    position: absolute;
-    bottom: 0;
-    font-size: 10px;
-    padding: 3px;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    background: rgba(0,0,0,.5);
-    color: white;
-}
-
-.extra-network-thumbs .card:hover .actions .name {
-    white-space: normal;
-    word-break: break-all;
-}
-
-.extra-network-cards .card{
-    display: inline-block;
-    margin: 0.5em;
-    width: 16em;
-=======
     margin: 0.5rem;
     width: 16rem;
     height: 24rem;
->>>>>>> 5ef669de080814067961f28357256e8fe27544f4
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
     border-radius: 0.2rem;
     position: relative;
