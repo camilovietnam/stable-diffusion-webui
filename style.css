@@ -773,6 +773,7 @@ footer {
 }
 .extra-network-cards .card:hover .metadata-button, .extra-network-thumbs .card:hover .metadata-button{
     display: inline-block;
+border: 2px solid red;
 }
 .extra-network-cards .card .metadata-button:hover, .extra-network-thumbs .card .metadata-button:hover{
     color: red;
@@ -847,7 +848,7 @@ footer {
     border-radius: 0.2em;
     position: relative;
     color: white;
-    background: aliceblue;
+    background: #ef4444;
     text-align: center;
     background-size: auto 100%;
     background-position: center;
